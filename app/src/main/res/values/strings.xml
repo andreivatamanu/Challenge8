@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Challenge8</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="challenge_1">Challenge 1</string>
+    <string name="top_rated">Top rated</string>
+    <string name="image_movie">image movie</string>
+    <string name="default_title">Default title</string>
+    <string name="default_count">Votes:\u0020</string>
+    <string name="genres">Genres:\u0020</string>
+    <string name="release_date">Release date:\u0020</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabbed_layout">TabbedLayout</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="top_rated_movies">Top Rated Movies</string>
+    <string name="title_activity_tabbed">List movies</string>
+    <string name="most_rated">Most rated</string>
+    <string name="now_playing">Now playing</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="sing_out">Sing out</string>
+    <string name="challenge_1_2">Challenge 1 + 2</string>
+    <string name="default_web_client_id">default</string>
+</resources>

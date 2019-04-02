@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        tools:ignore="MissingConstraints" >
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imageView_itemMovie"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_movie"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="16dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[17]" />
+
+            <TextView
+                android:id="@+id/textView_titleMovie"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/default_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="287dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="346dp"
+                android:layout_height="45dp"
+                android:numStars="10"
+                android:rating="7"
+                android:stepSize="0.1"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="446dp" />
+
+            <TextView
+                android:id="@+id/textView_voteCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_count"
+                tools:layout_editor_absoluteX="97dp"
+                tools:layout_editor_absoluteY="418dp" />
+
+            <TextView
+                android:id="@+id/textView_genres"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/genres"
+                app:layout_constraintStart_toEndOf="@+id/textView_releaseDate"
+                tools:layout_editor_absoluteY="372dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView_releaseDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/release_date"
+                app:layout_constraintTop_toBottomOf="@+id/textView_titleMovie"
+                tools:layout_editor_absoluteX="16dp"
+                tools:ignore="MissingConstraints" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    </android.support.constraint.ConstraintLayout>

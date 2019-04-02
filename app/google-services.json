@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "441536728648",
+    "firebase_url": "https://the-movie-3d784.firebaseio.com",
+    "project_id": "the-movie-3d784",
+    "storage_bucket": "the-movie-3d784.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441536728648:android:f0a46c60d0d88f2a",
+        "android_client_info": {
+          "package_name": "com.example.challenge8"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ZFz5wE5Sk7gN2MHcREegvdME8HorkOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441536728648-jaken7kvk6r26k15h4pb5mtpebl85f03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
